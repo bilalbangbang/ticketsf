@@ -1,0 +1,102 @@
+{
+  "retrievedAt": "2026-10-14T04:14:36.525Z",
+  "url": "https://data.sfgov.org/resource/ab4h-6ztd.json?%24where=citation_issued_datetime+%3E%3D+%272025-01-01T00%3A00%3A00%27+AND+citation_issued_datetime+%3C+%272026-01-01T00%3A00%3A00%27&%24limit=500&%24select=date_extract_hh%28citation_issued_datetime%29+as+hour%2C+count%28*%29+as+citations&%24group=hour&%24order=hour",
+  "data": [
+    {
+      "hour": "0",
+      "citations": "565"
+    },
+    {
+      "hour": "1",
+      "citations": "13579"
+    },
+    {
+      "hour": "2",
+      "citations": "36830"
+    },
+    {
+      "hour": "3",
+      "citations": "11134"
+    },
+    {
+      "hour": "4",
+      "citations": "18371"
+    },
+    {
+      "hour": "5",
+      "citations": "8017"
+    },
+    {
+      "hour": "6",
+      "citations": "69238"
+    },
+    {
+      "hour": "7",
+      "citations": "77618"
+    },
+    {
+      "hour": "8",
+      "citations": "112046"
+    },
+    {
+      "hour": "9",
+      "citations": "153896"
+    },
+    {
+      "hour": "10",
+      "citations": "102970"
+    },
+    {
+      "hour": "11",
+      "citations": "97726"
+    },
+    {
+      "hour": "12",
+      "citations": "207051"
+    },
+    {
+      "hour": "13",
+      "citations": "108432"
+    },
+    {
+      "hour": "14",
+      "citations": "68317"
+    },
+    {
+      "hour": "15",
+      "citations": "70286"
+    },
+    {
+      "hour": "16",
+      "citations": "69339"
+    },
+    {
+      "hour": "17",
+      "citations": "46452"
+    },
+    {
+      "hour": "18",
+      "citations": "29869"
+    },
+    {
+      "hour": "19",
+      "citations": "25135"
+    },
+    {
+      "hour": "20",
+      "citations": "14194"
+    },
+    {
+      "hour": "21",
+      "citations": "7304"
+    },
+    {
+      "hour": "22",
+      "citations": "4549"
+    },
+    {
+      "hour": "23",
+      "citations": "5097"
+    }
+  ]
+}

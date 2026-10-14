@@ -1,0 +1,46 @@
+{
+  "retrievedAt": "2026-10-14T04:14:39.324Z",
+  "url": "https://data.sfgov.org/resource/ab4h-6ztd.json?%24where=citation_issued_datetime+%3E%3D+%272025-01-01T00%3A00%3A00%27+AND+citation_issued_datetime+%3C+%272026-01-01T00%3A00%3A00%27+AND+violation_desc+IS+NOT+NULL&%24limit=10&%24select=violation_desc%2C+count%28*%29+as+citations&%24group=violation_desc&%24order=citations+DESC",
+  "data": [
+    {
+      "violation_desc": "STR CLEAN",
+      "citations": "531375"
+    },
+    {
+      "violation_desc": "MTR OUT DT",
+      "citations": "159391"
+    },
+    {
+      "violation_desc": "RES/OT",
+      "citations": "116736"
+    },
+    {
+      "violation_desc": "METER DTN",
+      "citations": "55524"
+    },
+    {
+      "violation_desc": "FAIL DISPL",
+      "citations": "52018"
+    },
+    {
+      "violation_desc": "NO PLATES",
+      "citations": "46460"
+    },
+    {
+      "violation_desc": "YEL ZONE",
+      "citations": "40380"
+    },
+    {
+      "violation_desc": "PRK GRADE",
+      "citations": "29688"
+    },
+    {
+      "violation_desc": "DRIVEWAY",
+      "citations": "27543"
+    },
+    {
+      "violation_desc": "RED ZONE",
+      "citations": "26919"
+    }
+  ]
+}

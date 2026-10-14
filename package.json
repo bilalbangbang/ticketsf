@@ -1,0 +1,38 @@
+{
+  "name": "ticketsf",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint .",
+    "typecheck": "next typegen && tsc --noEmit",
+    "test": "node --experimental-strip-types --test scripts/data.test.mjs",
+    "verify:data": "node scripts/verify-source.mjs"
+  },
+  "dependencies": {
+    "lucide-react": "^0.468.0",
+    "next": "^15.5.0",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "recharts": "^2.15.4"
+  },
+  "devDependencies": {
+    "@types/node": "^22.18.0",
+    "@types/react": "^19.1.10",
+    "@types/react-dom": "^19.1.7",
+    "eslint": "^9.39.5",
+    "eslint-config-next": "^15.5.27",
+    "typescript": "^5.9.2"
+  },
+  "engines": {
+    "node": ">=22.18.0 <25"
+  },
+  "overrides": {
+    "next": {
+      "postcss": "8.5.30"
+    }
+  },
+  "type": "module"
+}

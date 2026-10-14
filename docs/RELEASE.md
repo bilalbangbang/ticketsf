@@ -1,6 +1,6 @@
 # Release plan
 
-Status: GitHub source published; Vercel deployment in preparation.
+Status: published and verified. Live dashboard: https://ticketsf-pi.vercel.app/. GitHub: https://github.com/bilalbangbang/ticketsf.
 
 ## Intended public contents
 
@@ -14,7 +14,7 @@ After approval, initialize a local repository if needed, review staged files, ma
 
 ## Vercel
 
-After approval, import the confirmed GitHub repository into the user's Vercel account. Choose Next.js, repository root, Node.js 24, install command `npm ci`, and build command `npm run build`. Keep Output Directory at its Next.js default. No custom environment variables are needed. Keep Vercel system environment variables enabled so social previews use the actual production domain.
+The repository was imported into the owner's Vercel account as a single Next.js project. The notebooks directory is analysis material, not a separate deployed Python service. For a new deployment, import the GitHub repository. Choose Next.js, repository root, Node.js 24, install command `npm ci`, and build command `npm run build`. Keep Output Directory at its Next.js default. No custom environment variables are needed. Keep Vercel system environment variables enabled so social previews use the actual production domain.
 
 Deployment creates a public website. Confirm the generated URL, then test all four views, refresh/hash navigation, mobile menu, category selection, chart selections, search, sort, and CSV export against the deployed version. Only then add the actual live and GitHub URLs to README and the LinkedIn draft. Do not describe a local preview as a public launch.
 

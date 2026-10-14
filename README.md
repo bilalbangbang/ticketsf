@@ -1,5 +1,7 @@
 # ticketSF.
 
+[Live dashboard](https://ticketsf-pi.vercel.app/) · [Source code](https://github.com/bilalbangbang/ticketsf)
+
 An independent data science dashboard exploring San Francisco's 2025 parking citation records. Built by Bilal J. with Python, pandas, Jupyter, Next.js, React, and TypeScript.
 
 The project started with a conversation after a philosophy class at USF and a question: when are citations issued most often, and which violations appear most frequently?
@@ -66,7 +68,7 @@ See [data provenance](docs/DATA.md), [dependency review](docs/SECURITY-REVIEW.md
 
 This project uses the standard Next.js preset on Vercel, Node.js 24, the repository root directory, `npm ci`, and `npm run build`. No environment variables, database, or API credentials are needed at runtime. Data is bundled from the checked-in CSVs during the build.
 
-Repository: [bilalbangbang/ticketsf](https://github.com/bilalbangbang/ticketsf). Vercel deployment is approved and in preparation. See [release steps](docs/RELEASE.md).
+Repository: [bilalbangbang/ticketsf](https://github.com/bilalbangbang/ticketsf). Live deployment: [ticketsf-pi.vercel.app](https://ticketsf-pi.vercel.app/). See [release steps](docs/RELEASE.md).
 
 ## Credits and reuse
 
